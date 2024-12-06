@@ -38,7 +38,6 @@ function TextSearch() {
           type="text"
           id="search"
           placeholder="Enter a word..."
-          value={text}
           onChange={(e) => setText(e.target.value)}
         />
 
