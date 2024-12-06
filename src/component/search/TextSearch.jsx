@@ -14,7 +14,7 @@ function TextSearch() {
     e.preventDefault();
 
     if (!text.trim()) {
-      setResult("Please enter a word to search.");
+      setResult("Word not found in the dictionary.");
       return;
     }
 
